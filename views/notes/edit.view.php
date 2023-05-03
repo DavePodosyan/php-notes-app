@@ -9,6 +9,7 @@
             <div class="mt-5 md:col-span-2 md:mt-0">
                 <form action="/note" method="POST">
                     <input type="hidden" name="_method" value="PATCH">
+                    <input type="hidden" name="id" value="<?php echo $note['id'] ?>">
                     <div class="shadow sm:overflow-hidden sm:rounded-md">
                         <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                             <div>
