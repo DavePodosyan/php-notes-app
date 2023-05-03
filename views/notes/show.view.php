@@ -16,12 +16,6 @@
             <a href="/note/edit?id=<?php echo $note['id']; ?>" class="inline-flex justify-center rounded-md border border-transparent bg-gray-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Edit</a>
         </footer>
 
-        <form method="POST" class="mt-6">
-            <input type="hidden" name="_method" value="DELETE">
-            <input type="hidden" name="id" value="<?php echo $note['id']; ?>">
-            <button class="text-xs text-red-500">Delete</button>
-        </form>
-
     </div>
 </main>
 
