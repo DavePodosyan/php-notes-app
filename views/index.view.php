@@ -5,7 +5,7 @@
 
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-        <p>Hello, this is the main page.</p>
+        <p>Hello, <?php echo $_SESSION['user']['email'] ?? 'Guest'; ?> this is the main page.</p>
     </div>
 </main>
 
